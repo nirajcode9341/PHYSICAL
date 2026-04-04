@@ -4,26 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Physical Education Hub | Class 9, 10, 11, 12 Notes</title>
-  <meta name="description" content="Physical Education study website for Class 9, 10, 11, and 12 with notes in Hindi and English, syllabus, MCQs, important questions, practicals, and PDF downloads." />
-  <meta name="keywords" content="Physical Education notes, class 9 physical education, class 10 physical education, class 11 physical education, class 12 physical education, Hindi notes, English notes, syllabus, MCQ" />
-  <link rel="stylesheet" href="style.css">
+  <meta
+    name="description"
+    content="Physical Education study website for Class 9, 10, 11, and 12 with notes in Hindi and English, syllabus, MCQs, important questions, practicals, and PDF downloads."
+  />
+  <meta
+    name="keywords"
+    content="Physical Education notes, class 9 physical education, class 10 physical education, class 11 physical education, class 12 physical education, Hindi notes, English notes, syllabus, MCQ"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- HEADER -->
   <header class="navbar">
     <div class="container nav-wrap">
-      <a href="#" class="logo">
+      <a href="#home" class="logo">
         <div class="logo-badge">PE</div>
-        <div>
-          <div>Physical Education Hub</div>
-        </div>
+        <div class="logo-text">Physical Education Hub</div>
       </a>
 
-      <nav>
-        <div class="menu-toggle" id="menuToggle">
+      <nav class="nav">
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
+
         <ul class="nav-links" id="navLinks">
           <li><a href="#home">Home</a></li>
           <li><a href="#classes">Classes</a></li>
@@ -36,14 +43,22 @@
     </div>
   </header>
 
+  <!-- HERO -->
   <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1600&q=80" alt="Sports background 1">
+      <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1600&q=80" alt="Sports background 2">
+      <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1600&q=80" alt="Sports background 3">
+    </div>
+
     <div class="container hero-grid">
-      <div>
+      <div class="hero-content">
         <div class="hero-badge">Class 9 • 10 • 11 • 12 | Hindi + English</div>
         <h1><span>Physical Education</span> - Hemant Sir</h1>
         <p>
-          Get chapter-wise notes, syllabus, important questions, MCQs, practical content, revision material,
-          and easy PDF downloads for Classes 9 to 12 — all in one clean and student-friendly platform.
+          Get chapter-wise notes, syllabus, important questions, MCQs, practical content,
+          revision material, and easy PDF downloads for Classes 9 to 12 — all in one clean
+          and student-friendly platform.
         </p>
 
         <div class="hero-stats">
@@ -75,7 +90,8 @@
     </div>
   </section>
 
-  <section id="classes">
+  <!-- CLASSES -->
+  <section id="classes" class="section">
     <div class="container">
       <div class="section-head">
         <span class="mini">Quick Access</span>
@@ -98,7 +114,6 @@
         <div class="class-card">
           <div class="class-icon">10</div>
           <h3>Class 10</h3>
-          
           <ul>
             <li>✓ Chapter summaries</li>
             <li>✓ Important questions</li>
@@ -111,7 +126,6 @@
         <div class="class-card">
           <div class="class-icon">11</div>
           <h3>Class 11</h3>
-          
           <ul>
             <li>✓ Full theory notes</li>
             <li>✓ Bilingual content</li>
@@ -124,7 +138,6 @@
         <div class="class-card">
           <div class="class-icon">12</div>
           <h3>Class 12</h3>
-          
           <ul>
             <li>✓ Exam-focused notes</li>
             <li>✓ Important diagrams</li>
@@ -137,56 +150,58 @@
     </div>
   </section>
 
-  <section class="teacher-section">
-  <div class="container teacher-wrap">
-    
-    <div class="teacher-image">
-      <img src="teacher.jpg" alt="Hemant Kumar - Physical Education Teacher">
-    </div>
+  <!-- TEACHER -->
+  <section class="teacher-section section">
+    <div class="container">
+      <div class="teacher-wrap">
+        <div class="teacher-image">
+          <img src="teacher.jpg" alt="Hemant Kumar - Physical Education Teacher">
+        </div>
 
-    <div class="teacher-content">
-      <span class="mini">Website Owner & Teacher</span>
-      <h2>Hemant Kumar</h2>
-      <h3>Physical Education Teacher</h3>
+        <div class="teacher-content">
+          <span class="mini">Website Owner & Teacher</span>
+          <h2>Hemant Kumar</h2>
+          <h3>Physical Education Teacher</h3>
 
-      <p>
-        This website is guided by <strong>Hemant Kumar</strong>, a Physical Education Teacher,
-        to help Class 9 to 12 students learn in a simple, practical, and exam-focused way.
-        Students can study notes, syllabus, MCQs, important questions, and revision material
-        in an easy format.
-      </p>
+          <p>
+            This website is guided by <strong>Hemant Kumar</strong>, a Physical Education Teacher,
+            to help Class 9 to 12 students learn in a simple, practical, and exam-focused way.
+            Students can study notes, syllabus, MCQs, important questions, and revision material
+            in an easy format.
+          </p>
 
-      <div class="teacher-highlights">
-        <div class="teacher-point">Sports Teacher at Divine Public School</div>
-        <div class="teacher-point">Experience at Gyanodaya Vidyalaya, Giridih</div>
-        <div class="teacher-point">Hindi + English Guidance</div>
-        <div class="teacher-point">Physical Education & Sports Focus</div>
+          <div class="teacher-highlights">
+            <div class="teacher-point">Sports Teacher at Divine Public School</div>
+            <div class="teacher-point">Experience at Gyanodaya Vidyalaya, Giridih</div>
+            <div class="teacher-point">Hindi + English Guidance</div>
+            <div class="teacher-point">Physical Education & Sports Focus</div>
+          </div>
+
+          <div class="teacher-skills">
+            <span>Lagori</span>
+            <span>Kho-Kho</span>
+            <span>Kabbadi</span>
+            <span>Athletics</span>
+            <span>Yoga</span>
+            <span>Judo</span>
+          </div>
+
+          <a href="https://wa.me/918210318808" target="_blank" class="teacher-btn">Get Help</a>
+        </div>
       </div>
-
-      <div class="teacher-skills">
-        <span>Lagori</span>
-        <span>Kho-Kho</span>
-        <span>Kabbadi</span>
-        <span>Athletics</span>
-        <span>Yoga</span>
-        <span>Judo</span>
-      </div>
-
-      <a href="https://wa.me/918210318808" target="_blank" class="teacher-btn">
-        Get help
-      </a>
     </div>
+  </section>
 
-  </div>
-</section>
-
-
-  <section id="features" style="background:#f1f5f9;">
+  <!-- FEATURES -->
+  <section id="features" class="section features-section">
     <div class="container">
       <div class="section-head">
         <span class="mini">Website Features</span>
         <h2>Everything a student needs in one place</h2>
-        <p>This homepage is designed to make your website look modern, useful, and easy to explore on both desktop and mobile.</p>
+        <p>
+          This homepage is designed to make your website look modern, useful,
+          and easy to explore on both desktop and mobile.
+        </p>
       </div>
 
       <div class="feature-grid">
@@ -195,26 +210,31 @@
           <h3>Chapter-wise learning</h3>
           <p>Students can open class pages and study chapter by chapter without confusion.</p>
         </div>
+
         <div class="feature-card">
           <div class="feature-badge">B</div>
           <h3>Bilingual support</h3>
           <p>Every topic can be added in both Hindi and English for better understanding.</p>
         </div>
+
         <div class="feature-card">
           <div class="feature-badge">C</div>
           <h3>Exam preparation</h3>
           <p>Add MCQs, important questions, sample papers, and revision notes for fast preparation.</p>
         </div>
+
         <div class="feature-card">
           <div class="feature-badge">D</div>
           <h3>PDF downloads</h3>
           <p>Upload notes as PDFs so students can read them offline anytime they want.</p>
         </div>
+
         <div class="feature-card">
           <div class="feature-badge">E</div>
           <h3>Practical & viva</h3>
           <p>Useful practical files, project support, and viva questions can be added later.</p>
         </div>
+
         <div class="feature-card">
           <div class="feature-badge">F</div>
           <h3>Responsive design</h3>
@@ -224,14 +244,18 @@
     </div>
   </section>
 
-
-  <section>
+  <!-- SEARCH CTA -->
+  <section class="section">
     <div class="container">
       <div class="cta-band">
         <div>
           <h3>Search chapters, notes, or topics quickly</h3>
-          <p>Add a real search system later so students can directly find chapters like Yoga, Fitness, Nutrition, Practical, or Viva questions.</p>
+          <p>
+            Add a real search system later so students can directly find chapters like Yoga,
+            Fitness, Nutrition, Practical, or Viva questions.
+          </p>
         </div>
+
         <div class="search-box">
           <input type="text" placeholder="Search chapter, syllabus, MCQ..." />
           <button type="button">Search Now</button>
@@ -240,12 +264,16 @@
     </div>
   </section>
 
-  <section id="resources" style="background:#f8fafc;">
+  <!-- RESOURCES -->
+  <section id="resources" class="section resources-section">
     <div class="container">
       <div class="section-head">
         <span class="mini">Resources</span>
         <h2>Useful sections to add next</h2>
-        <p>These sections will make your website more complete, professional, and helpful for students.</p>
+        <p>
+          These sections will make your website more complete, professional,
+          and helpful for students.
+        </p>
       </div>
 
       <div class="resource-grid">
@@ -254,16 +282,19 @@
           <h3>Syllabus</h3>
           <p>Class-wise updated syllabus in simple and downloadable format.</p>
         </div>
+
         <div class="resource-card">
           <div class="num">02</div>
           <h3>Important Questions</h3>
           <p>Exam-oriented short and long answer questions chapter-wise.</p>
         </div>
+
         <div class="resource-card">
           <div class="num">03</div>
           <h3>MCQ Practice</h3>
           <p>Practice sets for revision before tests and board exams.</p>
         </div>
+
         <div class="resource-card">
           <div class="num">04</div>
           <h3>PDF Notes</h3>
@@ -273,7 +304,8 @@
     </div>
   </section>
 
-  <section id="faq">
+  <!-- FAQ -->
+  <section id="faq" class="section">
     <div class="container">
       <div class="section-head">
         <span class="mini">FAQ</span>
@@ -283,53 +315,113 @@
 
       <div class="faq-list">
         <div class="faq-item active">
-          <button class="faq-question">Will this website provide notes in both Hindi and English? <span>+</span></button>
-          <div class="faq-answer">Yes, you can upload each chapter in Hindi and English so students can learn in the language they prefer.</div>
+          <button class="faq-question">
+            Will this website provide notes in both Hindi and English?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes, you can upload each chapter in Hindi and English so students can learn in the language they prefer.
+          </div>
         </div>
+
         <div class="faq-item">
-          <button class="faq-question">Can students download notes in PDF format? <span>+</span></button>
-          <div class="faq-answer">Yes, you can create a PDF download section for each chapter or class page.</div>
+          <button class="faq-question">
+            Can students download notes in PDF format?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes, you can create a PDF download section for each chapter or class page.
+          </div>
         </div>
+
         <div class="faq-item">
-          <button class="faq-question">Will there be syllabus and important questions? <span>+</span></button>
-          <div class="faq-answer">Yes, syllabus, important questions, MCQs, and revision notes can all be added class-wise.</div>
+          <button class="faq-question">
+            Will there be syllabus and important questions?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes, syllabus, important questions, MCQs, and revision notes can all be added class-wise.
+          </div>
         </div>
+
         <div class="faq-item">
-          <button class="faq-question">Is this website mobile friendly? <span>+</span></button>
-          <div class="faq-answer">Yes, this homepage is already designed to look good on phones, tablets, and desktop screens.</div>
+          <button class="faq-question">
+            Is this website mobile friendly?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes, this homepage is already designed to look good on phones, tablets, and desktop screens.
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-wrap">
-      <div>
-        <strong>Physical Education Hub</strong><br />
-        <span>Class 9 to 12 study material in Hindi and English.</span>
+      <div class="footer-about">
+        <h3>Physical Education Hub</h3>
+        <p>Class 9 to 12 study material in Hindi and English.</p>
+
+        <div class="footer-social">
+          <a href="#">📘</a>
+          <a href="#">📷</a>
+          <a href="#">▶️</a>
+          <a href="#">💬</a>
+        </div>
       </div>
-      <div class="footer-links">
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
         <a href="#home">Home</a>
         <a href="#classes">Classes</a>
         <a href="#resources">Resources</a>
         <a href="#faq">FAQ</a>
       </div>
+
+      <div class="footer-section">
+        <h4>Teacher</h4>
+        <p>Hemant Kumar</p>
+        <a href="https://wa.me/91XXXXXXXXXX" target="_blank">Contact on WhatsApp</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Developer</h4>
+        <p>Niraj Rana</p>
+        <span>Web Developer</span>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Physical Education Hub | Developed by Niraj Rana
     </div>
   </footer>
 
   <script>
-    const menuToggle = document.getElementById('menuToggle');
-    const navLinks = document.getElementById('navLinks');
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+    const faqItems = document.querySelectorAll(".faq-item");
 
-    menuToggle.addEventListener('click', () => {
-      menuToggle.classList.toggle('active');
-      navLinks.classList.toggle('show');
+    menuToggle.addEventListener("click", () => {
+      menuToggle.classList.toggle("active");
+      navLinks.classList.toggle("show");
+
+      const isExpanded = menuToggle.classList.contains("active");
+      menuToggle.setAttribute("aria-expanded", isExpanded);
     });
 
-    document.querySelectorAll('.faq-question').forEach((button) => {
-      button.addEventListener('click', () => {
-        const item = button.parentElement;
-        item.classList.toggle('active');
+    faqItems.forEach((item) => {
+      const btn = item.querySelector(".faq-question");
+
+      btn.addEventListener("click", () => {
+        faqItems.forEach((otherItem) => {
+          if (otherItem !== item) {
+            otherItem.classList.remove("active");
+          }
+        });
+
+        item.classList.toggle("active");
       });
     });
   </script>
