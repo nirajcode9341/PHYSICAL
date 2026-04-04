@@ -114,18 +114,27 @@ select {
 
 .menu-toggle {
     display: none;
-    width: 28px;
+    width: 26px;
+    height: 20px;
     cursor: pointer;
     flex-direction: column;
-    gap: 5px;
+    justify-content: space-between;
+    background: none;     /* ❌ remove background */
+    border: none;         /* ❌ remove border */
+    padding: 0;           /* ❌ remove padding */
 }
 
 .menu-toggle span {
     display: block;
     height: 3px;
-    border-radius: 99px;
-    background: #fff;
+    width: 100%;
+    background: #fff;     /* ✅ white lines */
+    border-radius: 2px;
     transition: 0.3s ease;
+}
+
+.nav-wrap {
+    align-items: center;
 }
 
 .menu-toggle.active span:nth-child(1) {
@@ -842,7 +851,9 @@ section {
 @media (max-width: 860px) {
     .menu-toggle {
         display: flex;
+
     }
+    
 
     .nav-links {
         position: absolute;
