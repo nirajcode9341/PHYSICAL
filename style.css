@@ -185,22 +185,18 @@ select {
         opacity: 0;
         transform: scale(1.1);
     }
-
     8% {
         opacity: 1;
         transform: scale(1.05);
     }
-
     30% {
         opacity: 1;
         transform: scale(1);
     }
-
     38% {
         opacity: 0;
         transform: scale(1);
     }
-
     100% {
         opacity: 0;
         transform: scale(1.1);
