@@ -1,0 +1,157 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #e2e8f0;
+    line-height: 1.7;
+}
+
+/* PAGE SECTION */
+.terms-page {
+    width: 100%;
+    padding: 50px 20px;
+}
+
+/* MAIN CONTAINER */
+.terms-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 22px;
+    padding: 40px 30px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.28);
+    animation: fadeUp 0.8s ease;
+}
+
+/* HEADER */
+.terms-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.terms-header h1 {
+    font-size: 2.2rem;
+    color: #facc15;
+    margin-bottom: 10px;
+}
+
+.updated-text {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+}
+
+.intro-text {
+    max-width: 760px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #cbd5e1;
+}
+
+/* CONTENT */
+.terms-content {
+    display: grid;
+    gap: 20px;
+}
+
+/* TERM BOX */
+.term-box {
+    background: rgba(255, 255, 255, 0.04);
+    border-left: 5px solid #facc15;
+    border-radius: 14px;
+    padding: 20px 18px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.term-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+.term-box h2 {
+    color: #facc15;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.term-box p {
+    color: #e2e8f0;
+    font-size: 0.98rem;
+}
+
+/* ANIMATION */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .terms-page {
+        padding: 30px 14px;
+    }
+
+    .terms-container {
+        padding: 24px 16px;
+        border-radius: 16px;
+    }
+
+    .terms-header h1 {
+        font-size: 1.7rem;
+    }
+
+    .intro-text {
+        font-size: 0.95rem;
+    }
+
+    .term-box {
+        padding: 16px 14px;
+    }
+
+    .term-box h2 {
+        font-size: 1.05rem;
+    }
+
+    .term-box p {
+        font-size: 0.93rem;
+    }
+}
+
+/* FLOATING HOME BUTTON */
+.floating-home {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 52px;
+    height: 52px;
+    background: #facc15;
+    color: #000;
+    border-radius: 50%;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.floating-home:hover {
+    background: #eab308;
+    transform: translateY(-2px);
+}
